@@ -1,0 +1,31 @@
+digraph G {
+rankdir = LR 
+	13->21[label = ε];
+	21->20[label = ε];
+	21->19[label = ε];
+	18->20[label = ε];
+	18->19[label = ε];
+	19->16[label = ε];
+	19->14[label = ε];
+	17->18[label = ε];
+	15->18[label = ε];
+	16->17[label = a];
+	14->15[label = b];
+	10->12[label = ε];
+	12->13[label = b];
+	2->11[label = ε];
+	11->10[label = ε];
+	11->4[label = ε];
+	9->10[label = ε];
+	9->4[label = ε];
+	7->8[label = ε];
+	8->9[label = b];
+	5->6[label = ε];
+	6->7[label = b];
+	4->5[label = a];
+	3->2[label = ε];
+	3->0[label = ε];
+	1->2[label = ε];
+	1->0[label = ε];
+	0->1[label = a];
+}
